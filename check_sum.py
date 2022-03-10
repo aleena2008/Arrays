@@ -13,6 +13,6 @@ def check_sum(arr, sum):
 
     return    
 
-arr = list(map(int,input("\nEnter the numbers : ").strip().split())) 
+arr = list(map(int,input("Enter the sorted array : ").strip().split())) 
 sum = int(input("Sum: "))
 check_sum(arr, sum)
