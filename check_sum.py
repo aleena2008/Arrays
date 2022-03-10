@@ -11,6 +11,7 @@ def check_sum(arr, sum):
         else:
             l+=1
 
+    print("Sum not possible")
     return    
 
 arr = list(map(int,input("\nEnter the numbers : ").strip().split())) 
